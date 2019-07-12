@@ -1,0 +1,11 @@
+---
+micronaut:
+  application:
+    name: redis-test
+
+---
+redis:
+  uri: redis://localhost
+  caches:
+    testing:
+      maximumSize: 100
